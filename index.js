@@ -1,7 +1,8 @@
-var config = requrie('./config.js'),
-    params = require('./input.js');
+var config = require('./config.js'),
+    params = require('./input.js'),
+    fs = require('fs');
 
-process.chdir('bin');
+process.chdir('/root/bin');
 
 function applyCodes(codes, callback, errorCallback)
 {

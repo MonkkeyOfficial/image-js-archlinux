@@ -1,4 +1,5 @@
-var config = requrie('./config.js');
+var config = require('./config.js'),
+    fs = require('fs');
 
 process.chdir('/root/bin');
 
