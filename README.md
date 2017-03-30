@@ -1,2 +1,2 @@
 # image-js-unix
-Unix image environment running in JavaScript (Node)
+ArchLinux image environment running in JavaScript (Node)
